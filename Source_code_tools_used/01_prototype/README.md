@@ -1,5 +1,5 @@
 # Prototype: Adaptive Swarm
-This is for QE.
+This example includes A1-1 that we addressed in the paper.
 
 ## Quick start
 ```bash

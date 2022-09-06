@@ -10,8 +10,19 @@ $ python src/planner.py adswarm -k vanilla -rs <seed rand num start> -re <seed r
 Result files are stored in `output` folder.
 `contribution.log` has DCC's raw delta data.
 
+## Clean-up and store the output data
 
-## Experiment configuration
+```
+./output_store.sh <name of data folder>
+```
+It will make a folder and move all files in `output` folder to it.
+
+```
+./output_cleanup
+```
+It will move all files in `output` folder to `data/deprecated`.
+
+## Experiment configuration for new mission
 Below code in `conf.py` contains general configuration for the new mission.
 
 ```python
@@ -32,14 +43,4 @@ XY_GOAL = np.array([-1.0, -6.0]) # define goal of the mission
 ```
 - Obstacle: `obstacle.py`.
 
-## Clean-up and store the output data
 
-```
-./output_store.sh <name of data folder>
-```
-It will make a folder and move all files in `output` folder to it.
-
-```
-./output_cleanup
-```
-It will move all files in `output` folder to `data/deprecated`.

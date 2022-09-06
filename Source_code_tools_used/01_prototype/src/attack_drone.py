@@ -1,6 +1,6 @@
 
 """
-(CJ) Attack drone code: below
+(XX) Attack drone code: below
 1. move_obstacles
 2. targetting
 3. vector transformation

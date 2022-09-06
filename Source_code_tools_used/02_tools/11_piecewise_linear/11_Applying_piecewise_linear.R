@@ -17,7 +17,7 @@ require("graphics")
 machine <- "Mac"
 
 if(machine == "Mac"){
-  base_directory = paste("/Users/cj/Research/Project_data_analysis/",sep="" )
+  base_directory = paste("/Users/XX/Research/Project_data_analysis/",sep="" )
 }else if(machine == "Linux"){
   base_directory = paste("/mnt/storage1/Github/11_SwarmSlicing/Project_data_analysis/",sep="" )
 }else{

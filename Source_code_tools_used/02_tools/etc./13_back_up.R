@@ -13,7 +13,7 @@ library(geometry)
 library(retistruct)
 library(areaplot)
 require("graphics")
-source("/home/cj/91_data_storage_mt/Github/11_SwarmSlicing/Project_data_analysis/lib/lib_func.R")
+source("/home/XX/91_data_storage_mt/Github/11_SwarmSlicing/Project_data_analysis/lib/lib_func.R")
 
 set.seed(1)
 
@@ -58,7 +58,7 @@ for (i in c(1:1)){
         
         
         # base directory
-        base_directory = paste("/home/cj/91_data_storage_mt/Github/11_SwarmSlicing/Project_data_analysis/",sep="" )
+        base_directory = paste("/home/XX/91_data_storage_mt/Github/11_SwarmSlicing/Project_data_analysis/",sep="" )
         # directory for input 
         input_directory = paste(base_directory,"input/m3_real_start_10pieces/",sep="" )
         # input_directory_randomized_data = paste(input_directory,"data_1_62/",sep="" )

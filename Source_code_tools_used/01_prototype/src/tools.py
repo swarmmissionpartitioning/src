@@ -28,7 +28,7 @@ def draw_map(obstacles):
     ax.set_xlim(world_bounds_x)
     ax.set_ylim(world_bounds_y)
     for k in range(len(obstacles)):
-        if k != 10 and k != 11:  # (CJ) 10 = [-3], 11 = [-2], 12 = [-1]
+        if k != 10 and k != 11:  # (XX) 10 = [-3], 11 = [-2], 12 = [-1]
             ax.add_patch(Polygon(obstacles[k], color='k', zorder=10))
 
 

@@ -480,7 +480,7 @@ simul_tick [%d] with [%f] in zone_[%d] speedX [%f] obsSize [%f]" % \
             # change poses of some obstacles on the map
 
             """
-            (CJ)
+            (XX)
             Control the goal for attack drone 1
             Control the velocity of the attack drone
 
@@ -979,7 +979,7 @@ simul_tick [%d] in zone_[%d] at %f %f %f %f" % \
 
         if param_setting is 'record':
             if params.crash is True:
-                '''TODO: CJ debug'''
+                '''TODO: XX debug'''
                 # print("[log] crash detected: l:"+str(rbt.sp)+" f1:"+str(robots[1].sp) +
                 #       " f2:"+str(robots[2].sp)+" f3:"+str(robots[3].sp))
                 writeFile(CRASH_FOR_RT_PN, ret_crash_log(
@@ -997,7 +997,7 @@ simul_tick [%d] in zone_[%d] at %f %f %f %f" % \
                 checker_dist_obs(robots, simul_tick, params, OBSTACLES)
 
             if params.crash is True:
-                '''TODO: CJ debug'''
+                '''TODO: XX debug'''
                 # print("[log] crash detected: l:"+str(rbt.sp)+" f1:"+str(robots[1].sp) +
                 #       " f2:"+str(robots[2].sp)+" f3:"+str(robots[3].sp))
                 writeFile(CRASH_FOR_RT_PN, ret_crash_log(

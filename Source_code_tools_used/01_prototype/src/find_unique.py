@@ -26,9 +26,9 @@ start_seed_pool_idx = 1
 end_seed_pool_idx = 1000
 fuzz_threshold = 0.8 #0.87#4.0
 
-# SEEDPOOL_DIR_SPECIAL = '/home/cj/91_data_storage_mt/Github/Project_AdSwarm_A1/result_to_analyze/test_07_rand_07_776times_boundary_level4_to_see_expension_boundary/seedpool'
-# SEEDPOOL_DIR_SPECIAL = '/home/cj/91_data_storage_mt/Github/Project_AdSwarm_A1/result_to_analyze/test_02_rand_02_427times_V/seedpool'
-SEEDPOOL_DIR_SPECIAL = '/home/cj/91_data_storage_mt/Github/Project_AdSwarm_A1/seedpool'
+# SEEDPOOL_DIR_SPECIAL = '/home/XX/91_data_storage_mt/Github/Project_AdSwarm_A1/result_to_analyze/test_07_rand_07_776times_boundary_level4_to_see_expension_boundary/seedpool'
+# SEEDPOOL_DIR_SPECIAL = '/home/XX/91_data_storage_mt/Github/Project_AdSwarm_A1/result_to_analyze/test_02_rand_02_427times_V/seedpool'
+SEEDPOOL_DIR_SPECIAL = '/home/XX/91_data_storage_mt/Github/Project_AdSwarm_A1/seedpool'
 def foo():
 
     print(COEF_LENGTH_BIG)

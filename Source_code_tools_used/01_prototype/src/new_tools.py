@@ -247,12 +247,12 @@ def contribution_leader(robots, simulation_tick, params, OBSTACLES, target_obs):
     after_normal_cal_sp = m_original_new_local_planner(
         self_sp, self_sp_global_prime, OBSTACLES, params)
 
-    '''TODO: CJ debug'''
+    '''TODO: XX debug'''
     # print("[dbg] leader after_normal_cal_sp: "+str(after_normal_cal_sp))
 
     temp_sp_leader.append(m_original_new_local_planner(
         self_sp, self_sp, OBSTACLES, params))
-    '''TODO: CJ debug'''
+    '''TODO: XX debug'''
     # print("[dbg] leader temp_sp_leader: "+str(temp_sp_leader[-1]))
 
     for obs_idx in range(1, 4):
@@ -267,7 +267,7 @@ def contribution_leader(robots, simulation_tick, params, OBSTACLES, target_obs):
             m_original_new_local_planner(
                 self_sp, self_sp_global_prime, obs_onlyprime, params))
 
-        '''TODO: CJ debug'''
+        '''TODO: XX debug'''
         # print("[log]self_sp' = " + str(obs_idx) +
         #       " | " + str(temp_sp_leader[-1]))
 
@@ -322,7 +322,7 @@ def contribution_leader(robots, simulation_tick, params, OBSTACLES, target_obs):
 
     robots[0].dcc.append([temp_dcc_des, temp_dcc_obs_btt, temp_dcc_obs_dia, temp_dcc_obs_ltr, temp_dcc_wall])
 
-    '''TODO: CJ debug'''
+    '''TODO: XX debug'''
 
     if "DEBUG" in os.environ:
         print(" - CONTR: %f" % (time.time() - start_time))

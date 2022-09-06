@@ -1,7 +1,7 @@
 # Tools for slicing, analysis, and data processing
 
-During the project, we created several tools and scripts that slice the mission expressed as Dcc to obtaine the sub-missions. It can also assist our data analysis and processing tasks. The below list gives brief descriptions about the different tools.
-Note that correct I/O paths should be set before using tools (current paths are removed as they include author's name).
+During the project, we created several tools and scripts that slice the mission expressed as Dcc to obtaine the sub-missions. It can also assist our data analysis and processing tasks. The below list gives brief descriptions about the different tools.   
+**Note that correct I/O paths should be set** before using tools (current paths are removed as they include author's name).
 
 - Slicing the swarm mission (Dcc values).
   - [01_slicing](01_slicing) 
@@ -17,7 +17,7 @@ Note that correct I/O paths should be set before using tools (current paths are 
   - [06_plotting_individual_sub_missions](06_plotting_individual_sub_missions)
 - Piecewise linear regression
   - [07_piecewise_linear](07_piecewise_linear)
-- Applying and testing rules for slicing
+- Applying and testing each rule for slicing
   - [08_applying_rules](08_applying_rules)
 - Library for the other tools
   - [99_lib](99_lib)

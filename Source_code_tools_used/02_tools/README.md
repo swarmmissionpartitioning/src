@@ -5,9 +5,9 @@ Note that correct I/O paths should be set before using tools (current paths are 
 
 - Slicing the swarm mission (Dcc values).
   - [01_slicing](01_slicing) 
-- Data analysis
-  - [02_data_analysis](02_data_analysis)
-- Coordinates analysis
+- Analysis trajectories converted from simulation to physical experiment (lab environment)
+  - [02_analysis_traj_physical_exp](02_analysis_traj_physical_exp)
+- Coordinates analysis for comparison between trajectories (swarm flights)
   - [03_analysis_coord](03_analysis_coord)
 - Data visualization for Dcc (raw from the simulation)
   - [04_plotting_dcc](04_plotting_dcc)

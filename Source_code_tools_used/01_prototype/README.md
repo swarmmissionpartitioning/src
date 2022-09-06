@@ -3,20 +3,15 @@ This is for QE.
 
 ## Quick start
 ```bash
-$ python2 src/planner.py adswarm -k vanilla -rs <seed rand num start> -re <seed rand num end>
+$ python src/planner.py adswarm -k vanilla -rs <seed rand num start> -re <seed rand num end>
 ```
-Using python3 is also available.
 
 ## Result
 Result files are stored in `output` folder.
 `contribution.log` has DCC's raw delta data.
 
-## Trobleshooting
-### When the experiment is stopped unexpectively,
-Just start again.
-It will continue from the latest point.
 
-### If you want change environment for experiments
+## Experiment configuration
 Change below code in conf.py,
 
 ```python
@@ -40,22 +35,14 @@ XY_START = np.array([1.2, 9.0]) # for vertical map
 XY_GOAL = np.array([-1.0, -6.0]) # for vertical map
 
 ```
-
-and `obstacle.py`.
-
-and `rrt.py`.
-
-However, change setting is not recommendable for this version.
-Because current version is made for the experiment, so unorganized features are mixed up for now.
-I'm working on better interface now. 
-Feel free to contact me.
+- Obstacle: `obstacle.py`.
 
 ## Clean-up and store the output data
 
 ```
 ./output_store.sh <name of data folder>
 ```
-It will make user-defined folder and move all files in `output` folder to it.
+It will make a folder and move all files in `output` folder to it.
 
 ```
 ./output_cleanup

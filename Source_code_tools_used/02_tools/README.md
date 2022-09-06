@@ -5,3 +5,19 @@ Note that correct I/O paths should be set before using tools (current paths are 
 
 - Slicing the swarm mission (Dcc values).
   - [01_slicing](01_slicing) 
+- Data analysis
+  - [02_data_analysis](02_data_analysis)
+- Coordinates analysis
+  - [03_analysis_coord](03_analysis_coord)
+- Data visualization for Dcc (raw from the simulation)
+  - [04_plotting_dcc](04_plotting_dcc)
+- Data visualization for the result after applying all rules
+  - [05_plotting_aggregated_result](05_plotting_aggregated_result)
+- Data visualization for sub-missions
+  - [06_plotting_individual_sub_missions](06_plotting_individual_sub_missions)
+- Piecewise linear regression
+  - [07_piecewise_linear](07_piecewise_linear)
+- Applying and testing rules for slicing
+  - [08_applying_rules](08_applying_rules)
+- Library for the other tools
+  - [99_lib](99_lib)

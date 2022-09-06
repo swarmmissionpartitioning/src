@@ -10,7 +10,7 @@ $ python src/planner.py adswarm -k vanilla -rs <seed rand num start> -re <seed r
 Result files are stored in `output` folder.
 `contribution.log` has DCC's raw delta data.
 
-## Clean-up and store the output data
+### Clean-up and store the output data
 
 ```
 ./output_store.sh <name of data folder>

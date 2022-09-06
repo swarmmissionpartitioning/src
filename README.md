@@ -5,6 +5,6 @@ This is the project page for Swarm Mission Slicing for Effective and Focused Tes
 
 ## Code
 ### [Developed Tools and Code](https://github.com/swarmmissionslicing/src/tree/main/Source_code_tools_used)
-- This sub page has code used in this paper including tools, data, and fixes (with original algorithms).
+- This sub page has code used in this paper including code for prototype and tools.
 - [Link to open the subpage](https://github.com/swarmmissionslicing/src/tree/main/Source_code_tools_used)
 

@@ -15,12 +15,10 @@ It also has crashes or straggler cases in the area of interest.
 
 \item [\it M1-3.] %{\it Flying through high-rise buildings:} 
 The swarm flies through construction site\footnote{It is inspired by monitoring mission for construction sites~\cite{dronedeploy}.}.
-%Its mission area and duration are 2,000m $\times$ 2,000m (scale is 1/83) and 2,110 seconds. 
 Swarm crashes to the building flying through a narrow passage, which is the area of interest.
 
 \item [\it M1-4.] %{\it Indoor rescue support mission:} 
 The swarm searches for the victim\footnote{This mission is inspired by the firefighter support mission~\cite{mins}.} to support the indoor rescue mission. 
-%Mission area and duration are 25 m $\times$ 25 m (scale is 1/1) and 4,800 seconds. 
 It crashes to the wall trying to enter narrow corridors in the area of interest. % as shown in \autoref{fig:missions}-(d).
 
 \item [\it M2-1.] %{\it Flying through apartment town:} 

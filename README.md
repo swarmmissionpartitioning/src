@@ -8,3 +8,13 @@ This is the project page for Swarm Mission Slicing for Effective and Focused Tes
 - This sub page has code used in this paper including code for prototype and tools.
 - [Link to open the subpage](https://github.com/swarmmissionslicing/src/tree/main/Source_code_tools_used)
 
+
+## Supplementary Materials to the Paper
+### 1. [Algorithm Selection (for Evaluation)](https://github.com/swarmmissionslicing/src/tree/main/Criteria_for_selecting_algorithms)
+- In **Section IV. Evaluation; A. Experiment Setup. Swarm Algorithm Selection**, we refer to this webpage for the details of selection criteria of the algorithms we evaluated. 
+  - [The complete list of 81 algorithms we searched](https://github.com/swarmmissionslicing/src/tree/main/Criteria_for_selecting_algorithms)
+
+
+### 2. [Detailed Mission Description](https://github.com/swarmmissionslicing/src/tree/main/Mission_description)
+- In **Section IV. Evaluation; A. Experiment Setup. Evaluated Missions**, we refer to this webpage for the details of missions we evaluated. 
+  - [Detailed mission description](https://github.com/swarmmissionslicing/src/tree/main/Mission_description)

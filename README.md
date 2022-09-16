@@ -12,7 +12,7 @@ This is the project page for Testing Drone Swarm Algorithms with Behavioral Miss
 ## Supplementary Materials to the Paper
 ### 1. [Algorithm Selection (for Evaluation)](https://github.com/swarmmissionslicing/src/tree/main/Criteria_for_selecting_algorithms)
 - In **Section IV. Evaluation; A. Experiment Setup. Swarm Algorithm Selection**, we refer to this webpage for the details of selection criteria of the algorithms we evaluated. 
-  - [The complete list of 81 algorithms we searched](https://github.com/swarmmissionslicing/src/tree/main/Criteria_for_selecting_algorithms)
+  - [The complete list of 82 algorithms we searched](https://github.com/swarmmissionslicing/src/tree/main/Criteria_for_selecting_algorithms)
 
 
 ### 2. [Detailed Mission Description](https://github.com/swarmmissionslicing/src/tree/main/Mission_description)

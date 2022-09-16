@@ -10,3 +10,8 @@ Prototype folder include the prototype of our approach using A1-M1.
 
 This folder has tools what we used for preprocessing, data analysis, applying rules for partitioning and Dcc comparison.
 Most tools are written in R.
+
+## Data
+
+This folder has data that we used in the paper. Data for the figures in the paper has the same name with the figures.
+

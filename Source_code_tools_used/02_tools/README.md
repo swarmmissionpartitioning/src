@@ -1,10 +1,10 @@
-# Tools for slicing, analysis, and data processing
+# Tools for paritioning, analysis, and data processing
 
 During the project, we created several tools and scripts that slice the mission expressed as Dcc to obtaine the sub-missions. It can also assist our data analysis and processing tasks. The below list gives brief descriptions about the different tools.   
 **Note that correct I/O paths should be set** before using tools (current paths are removed as they include author's name).
 
-- Slicing the swarm mission (Dcc values).
-  - [01_slicing](01_slicing) 
+- Partitioning the swarm mission (Dcc values).
+  - [01_partitioning](01_partitioning) 
 - Analysis trajectories converted from simulation to physical experiment (lab environment)
   - [02_analysis_traj_physical_exp](02_analysis_traj_physical_exp)
 - Coordinates analysis for comparison between trajectories (swarm flights)
@@ -17,7 +17,7 @@ During the project, we created several tools and scripts that slice the mission 
   - [06_plotting_individual_sub_missions](06_plotting_individual_sub_missions)
 - Piecewise linear regression
   - [07_piecewise_linear](07_piecewise_linear)
-- Applying and testing each rule for slicing
-  - [08_applying_rules](08_applying_rules)
+- Analyzing and testing each step for partitioning
+  - [08_partitioning_steps](08_partitioning_steps)
 - Library for the other tools
   - [99_lib](99_lib)

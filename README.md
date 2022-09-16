@@ -1,6 +1,6 @@
-# Principled Drone Swarm Mission Partitioning for Effective Testing
+# Testing Drone Swarm Algorithms with Behavioral Mission Partitioning
 
-This is the project page for Principled Drone Swarm Mission Partitioning for Effective Testing. Contents that we was not able to cover in the paper due to the paper limit are placed here.
+This is the project page for Testing Drone Swarm Algorithms with Behavioral Mission Partitioning. Contents that we was not able to cover in the paper due to the paper limit are placed here.
 
 
 ## Code

@@ -1,6 +1,6 @@
-# Swarm Mission Slicing for Effective and Focused Testing
+# Principled Drone Swarm Mission Partitioning for Effective Testing
 
-This is the project page for Swarm Mission Slicing for Effective and Focused Testing. Contents that we was not able to cover in the paper due to the paper limit are placed here.
+This is the project page for Principled Drone Swarm Mission Partitioning for Effective Testing. Contents that we was not able to cover in the paper due to the paper limit are placed here.
 
 
 ## Code
